@@ -2,6 +2,7 @@
     height: calc(100vh - 80px);
     width: 100vw;
     position: relative;
+    overflow: hidden;
 
     .container{
         width: 300vw;
@@ -26,6 +27,7 @@
         margin: auto;
         color: white;
         gap: 10px;
+        margin: auto;
 
         .icon{
             width: 50px;
