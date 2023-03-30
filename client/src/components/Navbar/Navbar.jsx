@@ -5,6 +5,7 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom'
+import "./Navbar.scss"
 
 const Navbar = () => {
   return (
@@ -20,35 +21,36 @@ const Navbar = () => {
                     <KeyboardArrowDownIcon />
                 </div>
                 <div className="item">
-                    <Link to='/products/1'>Women</Link>
+                    <Link className='link' to='/products/1'>Women</Link>
                 </div>
                 <div className="item">
-                    <Link to='/products/2'>Men</Link>
+                    <Link className='link' to='/products/2'>Men</Link>
                 </div>
                 <div className="item">
-                    <Link to='/products/3'>Kids</Link>
+                    <Link className='link' to='/products/3'>Kids</Link>
                 </div>
             </div>
             <div className="center">
-                <Link to='/'>
+                <Link className='link' to='/'>
                     <img src="img/shopper-high-resolution-logo-black-on-transparent-background.png" alt="" style={{width: '100px', height: '50px'}} />
                 </Link>
             </div>
             <div className="right">
                 <div className="item">
-                    <Link to='/'>Homepage</Link>
+                    <Link className='link' to='/'>Homepage</Link>
                 </div>
                 <div className="item">
-                    <Link to='/'>About</Link>
+                    <Link className='link' to='/'>About</Link>
                 </div>
                 <div className="item">
-                    <Link to='/'>Contact</Link>
+                    <Link className='link' to='/'>Contact</Link>
                 </div>
                 <div className="item">
-                    <Link to='/'>Stores</Link>
+                    <Link className='link' to='/'>Stores</Link>
                 </div>
                 <div className="icons">
                     <SearchIcon />
+                    <PersonOutlineIcon />
                     <FavoriteBorderIcon />
                     <div className="cartIcon">
                         <ShoppingCartIcon />
