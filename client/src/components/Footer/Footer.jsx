@@ -37,14 +37,14 @@ const Footer = () => {
       <div className="bottom">
         <div className="left">
           <span className="logo">
-            <img src="img/shopper-high-resolution-logo-black-on-transparent-background.png" alt="" style={{width: '100px', height: '50px'}} />
+            <img src="/img/shopper-high-resolution-logo-black-on-transparent-background.png" alt="" style={{width: '100px', height: '50px'}} />
           </span>
           <span className='copyright'>
             &#169; Copyright 2023. All Rights Reserved
           </span>
         </div>
         <div className="right">
-          <img src="img/payment.png" alt="" />
+          <img src="/img/payment.png" alt="" />
         </div>
       </div>
     </div>

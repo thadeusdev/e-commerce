@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className="center">
                 <Link className='link' to='/'>
-                    <img src="img/shopper-high-resolution-logo-black-on-transparent-background.png" alt="" style={{width: '100px', height: '50px'}} />
+                    <img src="/img/shopper-high-resolution-logo-black-on-transparent-background.png" alt="" style={{width: '100px', height: '50px'}} />
                 </Link>
             </div>
             <div className="right">
